@@ -1,0 +1,52 @@
+<script setup>
+  import Ben from '@/assets/images/Ben.jpg';
+  import Button from "@/components/Button.vue";
+  import Social from '@/components/Social.vue';
+</script>
+
+<template>
+  <div class="flex h-screen items-center justify-center">
+    <div class="flex gap-x-10">
+      <img :src="Ben" alt="my-photo" class="my-pic rounded-50%" ref="myImage"/>
+
+      <div class="flex flex-col m-auto">
+        <p class="text-gray-700 mb-2 text-center">Hello, I'm</p>
+        <h2 class="text-black-900 mb-2 font-bold text-4xl text-center">Ben Ken-Idehen</h2>
+        <p class="text-2xl mb-3 text-center font-bold text-gray-500">Full Stack Developer</p>
+        <div class="flex m-auto gap-3">
+          <Button extra-classes="border border-black hover:bg-black hover:text-white">
+            Download CV
+          </Button>
+          <Button extra-classes="text-white hover:bg-black bg-gray-600 ">
+            Contact Info
+          </Button>
+        </div>
+        <div class="flex m-auto gap-3 p-2">
+          <Social href="https://x.com/benchanan008" class-name="fab fa-twitter fa-2x text-black"/>
+          <Social />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.my-pic{
+  height: 400px;
+  width: 400px;
+  animation: bounce 1.3s infinite;
+}
+
+button{
+  transition: all .3s ease-in;
+}
+
+@keyframes bounce {
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+</style>
