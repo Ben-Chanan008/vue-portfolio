@@ -24,7 +24,7 @@ import Card from '@/components/Card.vue';
         </Card>
       </div>
       <div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores at aut consequatur cupiditate deserunt dicta dignissimos eius est eveniet libero mollitia nihil perferendis, qui ratione saepe sapiente vitae! Aspernatur autem consequatur consequuntur ipsa iste provident voluptate? Ab, voluptatibus!</p>
+        <p>My name is Great Benchanan Ken-Idehen, a.k.a Ben. I am from Delta State, Nigeria, but currently residing in Saskatoon, Canada. I am solution driven when it comes to life, making sure there is a solution to whatever problem I face, either temporarily or permanently. I am ready to collaborate with you and turn your idea into a solution. "Every big app, was once an idea 💡!" </p>
       </div>
     </div>
   </section>

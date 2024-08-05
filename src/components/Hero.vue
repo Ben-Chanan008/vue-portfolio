@@ -14,12 +14,16 @@
         <h2 class="text-black-900 mb-2 font-bold text-4xl text-center">Ben Ken-Idehen</h2>
         <p class="text-2xl mb-3 text-center font-bold text-gray-500">Full Stack Developer</p>
         <div class="flex m-auto gap-3">
-          <Button extra-classes="border border-black hover:bg-black hover:text-white">
-            Download CV
-          </Button>
-          <Button extra-classes="text-white hover:bg-black bg-gray-600 ">
-            Contact Info
-          </Button>
+            <a href="/Web developer CV.pdf" download="Benchanan's Resume">
+              <Button extra-classes="border border-black hover:bg-black hover:text-white">
+                Download CV
+              </Button>
+            </a>
+            <a href="/#contact">
+              <Button extra-classes="text-white hover:bg-black bg-gray-600">
+                Contact Info
+              </Button>
+            </a>
         </div>
         <div class="flex m-auto gap-3 p-2">
           <Social href="https://x.com/benchanan008" class-name="fab fa-twitter fa-2x text-black"/>
