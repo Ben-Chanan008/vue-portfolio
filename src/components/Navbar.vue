@@ -13,7 +13,16 @@
     <nav class="p-3">
       <div class="flex justify-around p-2">
         <a href="" class="text-green-500 font-bold text-5xl">Ben.</a>
-        <div class="flex items-center">
+        <div class="md:block hidden menu">
+          <button><i class="far fa-bars fa-2x"></i></button>
+        </div>
+        <div class="flex items-center md:hidden big-nav">
+          <a href="/" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Home</a>
+          <a href="/#about" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/#about') ? 'font-bold text-green-500' : 'hover:text-gray-500']">About</a>
+          <a href="/#projects" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/#projects') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Projects</a>
+          <a href="/#contact" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/#contact') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Contact</a>
+        </div>
+        <div class="items-center flex-col hidden absolute right-0">
           <a href="/" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Home</a>
           <a href="/#about" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/#about') ? 'font-bold text-green-500' : 'hover:text-gray-500']">About</a>
           <a href="/#projects" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/#projects') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Projects</a>
@@ -22,3 +31,7 @@
       </div>
     </nav>
 </template>
+
+<style>
+
+</style>
