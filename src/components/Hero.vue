@@ -5,8 +5,8 @@
 </script>
 
 <template>
-  <div class="flex h-screen items-center justify-center">
-    <div class="flex gap-x-10">
+  <div class="flex lg:h-screen md:h-5/6 h-screen md:my-16 lg:my-0 items-center justify-center">
+    <div class="flex gap-x-10 md:flex-row flex-col">
       <img :src="Ben" alt="my-photo" class="my-pic rounded-50%" ref="myImage"/>
 
       <div class="flex flex-col m-auto">
@@ -36,9 +36,17 @@
 
 <style scoped>
 .my-pic{
+  animation: bounce 1.3s infinite;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+.my-pic{
   height: 400px;
   width: 400px;
-  animation: bounce 1.3s infinite;
+}
 }
 
 button{

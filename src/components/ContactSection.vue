@@ -8,8 +8,8 @@ import Card from "@/components/Card.vue";
     <p class="text-gray-500 text-center">Get in Touch</p>
     <p class="font-bold text-center text-4xl mb-5">Contact Me</p>
 
-     <Card class-name="rounded p-4 border-black flex w-1/2 m-auto">
-       <div class="flex m-auto">
+     <Card class-name="rounded p-4 border-black flex lg:w-full lg:m-auto">
+       <div class="flex flex-col md:flex-row m-auto">
          <div>
             <i class="far fa-envelope mr-2"></i>
             <span>bchanan.boss@gmail.com</span>

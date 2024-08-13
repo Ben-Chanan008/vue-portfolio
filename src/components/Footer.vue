@@ -1,5 +1,5 @@
 <template>
-  <footer class="px-16 py-5 flex justify-around">
+  <footer class="md:px-16 py-5 flex justify-around">
     <a href="/" class="text-5xl text-green-500 font-bold">Ben.</a>
     <div class="flex gap-4">
       <Social />

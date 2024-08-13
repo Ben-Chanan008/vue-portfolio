@@ -20,7 +20,7 @@
 </script>
 
 <template>
-  <div class="flex gap-3 mb-8">
+  <div class="flex gap-3 mb-8 md:justify-start justify-center">
     <i :class="['fa-2x', brand ? 'fab' : 'far', `fa-${icon}`]"></i>
     <div>
       <p class="text-xl">{{ title }}</p>

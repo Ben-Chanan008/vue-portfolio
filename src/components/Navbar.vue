@@ -11,10 +11,11 @@
 
 <template>
     <nav class="p-3">
-      <div class="flex justify-around p-2">
+      <div class="flex justify-around p-2 items-center">
         <a href="" class="text-green-500 font-bold text-5xl">Ben.</a>
         <div class="md:hidden block menu">
-          <button><i class="far fa-bars fa-2x"></i></button>
+          <!-- <button><i class="far fa-bars fa-2x"></i></button> -->
+           <a href="/#projects" :class="['mx-2', 'p-2', 'rounded', 'font-bold', isActiveLink('/#projects') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Projects</a>
         </div>
         <div class="md:flex items-center hidden big-nav">
           <a href="/" :class="['mx-2', 'p-2', 'rounded', isActiveLink('/') ? 'font-bold text-green-500' : 'hover:text-gray-500']">Home</a>
