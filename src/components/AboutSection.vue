@@ -11,20 +11,20 @@ import Card from '@/components/Card.vue';
       <img :src="Ben" alt="my-pic" class="mx-auto md:mb-0 mb-4 h-full rounded-pill row-span-2"/>
       <div class="flex gap-3 w-100 align-mid">
         <Card class-name="rounded-pill w-1/2 md:mb-0 mb-4 flex flex-col items-center justify-center">
-          <i class="far fa-medal"></i>
+          <i class="fas fa-medal"></i>
           <p class="font-bold text-2xl">Experience</p>
           <span class="opacity-50">2+ years</span>
           <span class="opacity-50">Full Stack Development</span>
         </Card>
         <Card class-name="rounded-pill w-1/2 flex flex-col lg:mb-0 mb-4 items-center justify-center">
-          <i class="far fa-user-group"></i>
+          <i class="fas fa-user-group"></i>
           <p class="font-bold text-2xl">Education</p>
           <span class="opacity-50">Codecademy Degree</span>
           <span class="opacity-50">High School Degree</span>
         </Card>
       </div>
       <div>
-        <p>My name is Great Benchanan Ken-Idehen, a.k.a Ben. I am from Delta State, Nigeria, but currently residing in Saskatoon, Canada. I am solution driven when it comes to life, making sure there is a solution to whatever problem I face, either temporarily or permanently. I am ready to collaborate with you and turn your idea into a solution. "Every big app, was once an idea 💡!" </p>
+        <p>My name is Great Benchanan Ken-Idehen, a.k.a Ben. I am solution driven when it comes to life, making sure there is a solution to whatever problem I face, either temporarily or permanently. Bringing this mentality to tech and digital solutions is a great asset, as I make sure I provide the best value solution possible for whatever problem using web apps. I am ready to collaborate with you and turn your idea into a solution. "Every big app, was once an idea 💡!" </p>
       </div>
     </div>
   </section>

@@ -3,7 +3,7 @@
     <a href="/" class="text-5xl text-green-500 font-bold">Ben.</a>
     <div class="flex gap-4">
       <Social />
-      <Social class-name="fab fa-twitter fa-2x" href="https://x.com/benchanan008"/>
+      <Social class-name="fab fa-x-twitter fa-2x" href="https://x.com/benchanan008"/>
     </div>
     <TopButton />
   </footer>

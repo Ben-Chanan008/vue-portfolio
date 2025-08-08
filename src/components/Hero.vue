@@ -26,7 +26,7 @@
             </a>
         </div>
         <div class="flex m-auto gap-3 p-2">
-          <Social href="https://x.com/benchanan008" class-name="fab fa-twitter fa-2x text-black"/>
+          <Social href="https://x.com/benchanan008" class-name="fab fa-x-twitter fa-2x text-black"/>
           <Social />
         </div>
       </div>

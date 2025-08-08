@@ -1,5 +1,5 @@
 import './assets/css/main.css'
-import '../public/fontawesome/css/all.css';
+// import '../public/fontawesome/css/all.css';
 
 import { createApp } from 'vue'
 import App from './App.vue'

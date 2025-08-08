@@ -36,7 +36,7 @@
           <Language title="Ubuntu" level="Experienced" icon="server"/>
           <Language title="Google Cloud" level="Basic" icon="cloud"/>
           <Language title="PHPmyadmin" level="EXperienced" />
-          <Language title="SSL Terminal" level="Intermediate" icon="rectangle-terminal"/>
+          <Language title="SSL Terminal" level="Intermediate"/>
         </div>
       </Card>
     </div>

@@ -17,16 +17,16 @@ defineProps({
     <img :src="`${picture}`" alt="project-pic" class="rounded-pill"/>
     <p class="text-2xl p-3 font-bold text-center">{{ title }}</p>
     <div class="flex gap-2 w-full">
-      <Button extra-classes="border-black border w-1/2 hover:bg-black hover:text-white">
-        <a :href="`https://github.com/Ben-Chanan008/${gitHub}`" target="_blank">
-          Github
-        </a>
-      </Button>
-      <Button extra-classes="border-black border w-1/2 hover:bg-black hover:text-white">
-        <a :href="`https://${live}`" target="_blank">
+      <a :href="`https://github.com/Ben-Chanan008/${gitHub}`" target="_blank" class="w-full">
+        <Button extra-classes="border-black border w-full hover:bg-black hover:text-white">
+            Github
+        </Button>
+      </a>
+      <a :href="`https://${live}`" target="_blank" class="w-full">
+        <Button extra-classes="border-black border w-full hover:bg-black hover:text-white">
           Live Demo
-        </a>
-      </Button>
+        </Button>
+      </a>
     </div>
   </Card>
 </template>

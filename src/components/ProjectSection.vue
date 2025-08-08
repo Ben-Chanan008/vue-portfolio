@@ -9,9 +9,13 @@ import Project from "@/components/Project.vue";
     <p class="text-5xl font-bold text-center mb-16">Projects</p>
 
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-      <Project git-hub="delevia" :picture="ProjectPic" title="Delevia" live="delevia.000.pe"/>
-      <Project git-hub="creos" :picture="ProjectPic" title="Creos" live="creosxyz.com"/>
-      <Project git-hub="academia" :picture="ProjectPic" title="Academia" live="acadome.000.pe"/>
+
+      <!-- <Project git-hub="delevia" :picture="ProjectPic" title="Delevia" live="delevia.000.pe"/> -->
+      <!-- <Project git-hub="creos" :picture="ProjectPic" title="Creos" live="creosxyz.com"/> -->
+      <!-- <Project git-hub="academia" :picture="ProjectPic" title="Academia" live="acadome.000.pe"/> -->
+      <Project git-hub="twomenandatruck" :picture="ProjectPic" title="Two Men And A Truck" live="tmaat.com"/>
+      <Project git-hub="banking-app" :picture="ProjectPic" title="Banking App" live="banking.tmaat.com"/>
+      <Project git-hub="" :picture="ProjectPic" title="Xcella" live="techskol.com"/>
       <Project git-hub="wdi" :picture="ProjectPic" title="WDI" live="wdi.yowec.org"/>
     </div>
   </section>
