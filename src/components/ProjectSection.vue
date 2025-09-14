@@ -17,6 +17,7 @@ import Project from "@/components/Project.vue";
       <Project git-hub="banking-app" :picture="ProjectPic" title="Banking App" live="banking.tmaat.com"/>
       <Project git-hub="" :picture="ProjectPic" title="Xcella" live="techskol.com"/>
       <Project git-hub="wdi" :picture="ProjectPic" title="WDI" live="wdi.yowec.org"/>
+      <Project git-hub="beyondfamily" :picture="ProjectPic" title="Beyond Family" live="beyondfamily.ca"/>
     </div>
   </section>
 </template>
